@@ -1,1 +1,1 @@
-# Tugas Algoritma P4 & P7
+# Kumpulan Tugas Algoritma
