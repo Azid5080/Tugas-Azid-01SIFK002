@@ -1,0 +1,29 @@
+#include<iostream>
+#include<string>
+using namespace std; 
+
+int main () {
+	float harga_barang, total_beli, diskon, total_bayar;
+	int jumlah_barang;
+	
+	cout << "Masukan Harga Barang  : ";
+	cin >> harga_barang;
+	cout << "Masukan Jumlah Barang : ";
+	cin >> jumlah_barang;
+	
+	total_bayar = harga_barang * jumlah_barang;
+	
+	if (jumlah_barang > 100) {
+        diskon = 0.15 * total_beli;
+    } else {
+        diskon = 0.05 * total_beli;
+    }
+	
+	total_bayar = total_beli - diskon;
+	
+	cout << "\nTotal beli : Rp " << total_beli << endl;
+	cout << "Diskon : Rp " << diskon << endl;
+	cout << "Total bayar : Rp " << total_bayar << endl;
+	
+	return 0;
+}
